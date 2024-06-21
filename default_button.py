@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 menu_keyboard = ReplyKeyboardMarkup([
     [KeyboardButton("Menyu 1"), KeyboardButton("Menyu 2"), KeyboardButton("Menyu 3"), KeyboardButton("Menyu 4")],
-    [KeyboardButton("Menyu 5")],
+    [KeyboardButton("Menyu 5")], [KeyboardButton("Menyu 6")], [KeyboardButton("Menyu 7")], [KeyboardButton("Menyu 8")],
         ],
     resize_keyboard=True)
 
